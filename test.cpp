@@ -1,0 +1,11 @@
+#include <iostream>
+#include <utility>
+#include <string>
+using namespace std;
+	
+int main(){
+	pair<int,string> p1;
+	p1 = make_pair(1,"string");
+	cout<<p1.first<<" "<<p1.second<<endl;
+	return 0;
+}
